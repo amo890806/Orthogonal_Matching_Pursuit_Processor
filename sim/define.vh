@@ -1,0 +1,48 @@
+`define K 8
+`define COL_NUM 256
+
+`define ROM_DATA_WIDTH 19
+`define ROM_ADDR_WIDTH 6
+`define ROM_MEM_SIZE 64
+`define RAM_Q_DATA_WIDTH 1216    //64*19
+`define RAM_Q_ADDR_WIDTH 576    //64*9
+`define RAM_Q_MEM_SIZE 512    //64*8
+`define RAM_R_DATA_WIDTH 19
+`define RAM_R_ADDR_WIDTH 6
+`define RAM_R_MEM_SIZE 64    //8*8
+`define RAM_THETA_DATA_WIDTH 1216   //64*19
+`define RAM_THETA_ADDR_WIDTH 896   //64*14
+`define RAM_THETA_MEM_SIZE 16384    //64*256
+`define REG_ADDR_WIDTH 6
+`define REG_SIZE 64
+
+`define VMU_DATA_WIDTH 19
+`define VMU_ADDR_WIDTH 6
+`define VMU_OP_NUM 64
+`define ADDER_TREE_OP_NUM 64
+
+`define SQRT_DATA_WIDTH 19
+`define SQRT_STAGE_NUM 9
+
+`define DIV_DATA_WIDTH 19
+`define DIV_STAGE_NUM 15
+
+`define CORDIC_DATA_WIDTH 19
+`define CORDIC_STAGE_NUM 15
+
+`define REG_RES_ADDR_WIDTH 6
+`define REG_RES_SIZE 64
+
+`define REG_IDX_DATA_WIDTH 8
+`define REG_IDX_ADDR_WIDTH 3
+`define REG_IDX_SIZE 8
+
+`define REG_DIV_DATA_WIDTH 19
+`define REG_DIV_ADDR_WIDTH 3
+`define REG_DIV_SIZE 8
+
+`define BS_MULT_DATA_WIDTH 19
+
+`define RAM_S_DATA_WIDTH 19
+`define RAM_S_ADDR_WIDTH 8
+`define RAM_S_MEM_SIZE 256
